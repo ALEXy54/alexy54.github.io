@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Zabbix 学习笔记]]></title>
-    <url>%2F2019%2F08%2F12%2FZabbix-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[Zabbix 学习笔记1:Zabbix feature]]></title>
+    <url>%2F2019%2F08%2F12%2FZabbix%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01%20Zabbix%20feature%2F</url>
+    <content type="text"><![CDATA[Zabbix featureOverviewZabbix is a highly intergrated netwrok monitoring solution,offering a multiplicity of features(特性) in a single package. Data gathering availability and performance checks support for SNMP (both trapping and polling), IPMI, JMX, VMware monitoring custom checks gathering desired data at custom intervals(时间间隔) performed by server/proxy and by agents （通过 Server/Proxy 和 Agents 来执行数据采集。） Flexible threshold definitions 灵活的阈值定义 you can define very flexible problem thresholds, called triggers, referencing values from the backend database 您可以参考后端数据库定义非常灵活的设定告警阈值，即触发器 Highly configurable alerting sending notifications can be customized for the escalation schedule, recipient, media type(递增计划、接收者、媒介类型) notifications can be made meaningful and helpful using macro variables(使用宏变量) automatic actions include remote commands Real-time graphing monitored items are immediately graphed using the built-in graphing functionality Web monitoring capabilities Zabbix can follow a path of simulated mouse clicks on a web site and check for functionality and response timeExtensive visualisation options (丰富的可视化选项) ability to create custom graphs that can combine multiple items into a single view(能够将多个项目组合到一个自定义的图表中) network maps(网络拓扑图) custom screens and slide shows for a dashboard-style(仪表盘样式) overview reports high-level (business) view of monitored resources (监控资源的更高层次展示视图（业务视图）。) Historical data storage data stored in a database configurable history built-in housekeeping procedure Easy configuration add monitored devices as hosts hosts are picked up for monitoring, once in the database apply templates to monitored devices Use of templates grouping checks in templates templates can inherit(继承) other templates Network discovery automatic discovery of network devices agent auto registration discovery of file systems, network interfaces and SNMP OIDs Fast web interface a web-based frontend in PHP accessible from anywhere you can click your way through audit(审计) log Zabbix API Zabbix API provides programmable interface to Zabbix for mass manipulations(批量操作), 3rd party software integration and other purposes. Permissions system secure user authentication certain users can be limited to certain views Full featured and easily extensible agent deployed on monitoring targets can be deployed on both Linux and Windows Binary daemons(守护进程) written in C, for performance and small memory footprint easily portable（移植） Ready for complex environments remote monitoring made easy by using a Zabbix proxy]]></content>
       <categories>
-        <category>Zabbix监控</category>
+        <category>Zabbix 监控 Linux</category>
       </categories>
       <tags>
         <tag>Zabbix Linux</tag>

@@ -54,16 +54,19 @@
   };
 </script>
 
-  <meta name="keywords" content="Zabbix Linux">
+  <meta name="description" content="Zabbix featureOverviewZabbix is a highly intergrated netwrok monitoring solution,offering  a multiplicity of features(特性) in a single package.">
+<meta name="keywords" content="Zabbix Linux">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Zabbix 学习笔记">
-<meta property="og:url" content="http://yoursite.com/2019/08/12/Zabbix-学习笔记/index.html">
+<meta property="og:title" content="Zabbix 学习笔记1:Zabbix feature">
+<meta property="og:url" content="http://yoursite.com/2019/08/12/Zabbix 学习笔记1 Zabbix feature/index.html">
 <meta property="og:site_name" content="ALEXY54&#39;s blog">
+<meta property="og:description" content="Zabbix featureOverviewZabbix is a highly intergrated netwrok monitoring solution,offering  a multiplicity of features(特性) in a single package.">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-12T05:54:50.845Z">
+<meta property="og:updated_time" content="2019-08-12T07:12:11.031Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Zabbix 学习笔记">
-  <link rel="canonical" href="http://yoursite.com/2019/08/12/Zabbix-学习笔记/">
+<meta name="twitter:title" content="Zabbix 学习笔记1:Zabbix feature">
+<meta name="twitter:description" content="Zabbix featureOverviewZabbix is a highly intergrated netwrok monitoring solution,offering  a multiplicity of features(特性) in a single package.">
+  <link rel="canonical" href="http://yoursite.com/2019/08/12/Zabbix 学习笔记1 Zabbix feature/">
 
 
 <script id="page-configurations">
@@ -77,7 +80,7 @@
   };
 </script>
 
-  <title>Zabbix 学习笔记 | ALEXY54's blog</title>
+  <title>Zabbix 学习笔记1:Zabbix feature | ALEXY54's blog</title>
   
 
 
@@ -291,7 +294,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/12/Zabbix-学习笔记/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/12/Zabbix 学习笔记1 Zabbix feature/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="alexy54">
@@ -305,7 +308,7 @@
       <header class="post-header">
 
         
-          <h1 class="post-title" itemprop="name headline">Zabbix 学习笔记
+          <h1 class="post-title" itemprop="name headline">Zabbix 学习笔记1:Zabbix feature
 
             
           </h1>
@@ -322,7 +325,7 @@
                 
               
 
-              <time title="创建时间：2019-08-12 13:48:27 / 修改时间：13:54:50" itemprop="dateCreated datePublished" datetime="2019-08-12T13:48:27+08:00">2019-08-12</time>
+              <time title="创建时间：2019-08-12 13:48:27 / 修改时间：15:12:11" itemprop="dateCreated datePublished" datetime="2019-08-12T13:48:27+08:00">2019-08-12</time>
             </span>
           
             
@@ -335,7 +338,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Zabbix监控/" itemprop="url" rel="index"><span itemprop="name">Zabbix监控</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Zabbix-监控-Linux/" itemprop="url" rel="index"><span itemprop="name">Zabbix 监控 Linux</span></a></span>
 
                 
                 
@@ -354,7 +357,80 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <h1 id="Zabbix-feature"><a href="#Zabbix-feature" class="headerlink" title="Zabbix feature"></a>Zabbix feature</h1><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>Zabbix is a highly intergrated netwrok monitoring solution,offering  a multiplicity of features(特性) in a single package.</p>
+<a id="more"></a>
+
+<h2 id="Data-gathering"><a href="#Data-gathering" class="headerlink" title="Data gathering"></a>Data gathering</h2><ul>
+<li>availability and performance checks</li>
+<li>support for SNMP (both trapping and polling), IPMI, JMX, VMware monitoring</li>
+<li>custom checks</li>
+<li>gathering desired data at custom intervals(时间间隔)</li>
+<li>performed by server/proxy and by agents （通过 Server/Proxy 和 Agents 来执行数据采集。）</li>
+</ul>
+<h2 id="Flexible-threshold-definitions-灵活的阈值定义"><a href="#Flexible-threshold-definitions-灵活的阈值定义" class="headerlink" title="Flexible threshold   definitions 灵活的阈值定义"></a>Flexible threshold   definitions 灵活的阈值定义</h2><ul>
+<li>you can define very flexible problem thresholds, called triggers, referencing values from the backend database</li>
+<li>您可以参考后端数据库定义非常灵活的设定告警阈值，即触发器</li>
+</ul>
+<h2 id="Highly-configurable-alerting"><a href="#Highly-configurable-alerting" class="headerlink" title="Highly configurable alerting"></a>Highly configurable alerting</h2><ul>
+<li>sending notifications can be customized for the escalation schedule, recipient, media type(递增计划、接收者、媒介类型)</li>
+<li>notifications can be made meaningful and helpful using macro variables(使用宏变量)</li>
+<li>automatic actions include remote commands</li>
+</ul>
+<h2 id="Real-time-graphing"><a href="#Real-time-graphing" class="headerlink" title="Real-time   graphing"></a>Real-time   graphing</h2><ul>
+<li>monitored items are immediately graphed using the built-in graphing functionality</li>
+</ul>
+<h2 id="Web-monitoring-capabilities"><a href="#Web-monitoring-capabilities" class="headerlink" title="Web  monitoring  capabilities"></a>Web  monitoring  capabilities</h2><ul>
+<li>Zabbix can follow a path of simulated mouse clicks on a web site and check for functionality and response time<h2 id="Extensive-visualisation-options-丰富的可视化选项"><a href="#Extensive-visualisation-options-丰富的可视化选项" class="headerlink" title="Extensive  visualisation  options (丰富的可视化选项)"></a>Extensive  visualisation  options (丰富的可视化选项)</h2></li>
+<li>ability to create custom graphs that can combine multiple items into a single view(能够将多个项目组合到一个自定义的图表中)</li>
+<li>network maps(网络拓扑图)</li>
+<li>custom screens and slide shows for a dashboard-style(仪表盘样式) overview </li>
+<li>reports</li>
+<li>high-level (business) view of monitored resources (监控资源的更高层次展示视图（业务视图）。)</li>
+</ul>
+<h2 id="Historical-data-storage"><a href="#Historical-data-storage" class="headerlink" title="Historical  data  storage"></a>Historical  data  storage</h2><ul>
+<li>data stored in a database</li>
+<li>configurable history</li>
+<li>built-in housekeeping procedure</li>
+</ul>
+<h2 id="Easy-configuration"><a href="#Easy-configuration" class="headerlink" title="Easy  configuration"></a>Easy  configuration</h2><ul>
+<li>add monitored devices as hosts</li>
+<li>hosts are picked up for monitoring, once in the database</li>
+<li>apply templates to monitored devices</li>
+</ul>
+<h2 id="Use-of-templates"><a href="#Use-of-templates" class="headerlink" title="Use  of   templates"></a>Use  of   templates</h2><ul>
+<li>grouping checks in templates</li>
+<li>templates can inherit(继承) other templates</li>
+</ul>
+<h2 id="Network-discovery"><a href="#Network-discovery" class="headerlink" title="Network  discovery"></a>Network  discovery</h2><ul>
+<li>automatic discovery of network devices</li>
+<li>agent auto registration</li>
+<li>discovery of file systems, network interfaces and SNMP OIDs</li>
+</ul>
+<h2 id="Fast-web-interface"><a href="#Fast-web-interface" class="headerlink" title="Fast  web  interface"></a>Fast  web  interface</h2><ul>
+<li>a web-based frontend in PHP</li>
+<li>accessible from anywhere</li>
+<li>you can click your way through</li>
+<li>audit(审计) log</li>
+</ul>
+<h2 id="Zabbix-API"><a href="#Zabbix-API" class="headerlink" title="Zabbix  API"></a>Zabbix  API</h2><ul>
+<li>Zabbix API provides programmable interface to Zabbix for mass manipulations(批量操作), 3rd party software integration and other purposes. </li>
+</ul>
+<h2 id="Permissions-system"><a href="#Permissions-system" class="headerlink" title="Permissions  system"></a>Permissions  system</h2><ul>
+<li>secure user authentication</li>
+<li>certain users can be limited to certain views</li>
+</ul>
+<h2 id="Full-featured-and-easily-extensible-agent"><a href="#Full-featured-and-easily-extensible-agent" class="headerlink" title="Full  featured  and  easily  extensible  agent"></a>Full  featured  and  easily  extensible  agent</h2><ul>
+<li>deployed on monitoring targets</li>
+<li>can be deployed on both Linux and Windows</li>
+</ul>
+<h2 id="Binary-daemons-守护进程"><a href="#Binary-daemons-守护进程" class="headerlink" title="Binary daemons(守护进程)"></a>Binary daemons(守护进程)</h2><ul>
+<li>written in C, for performance and small memory footprint</li>
+<li>easily portable（移植）</li>
+</ul>
+<h2 id="Ready-for-complex-environments"><a href="#Ready-for-complex-environments" class="headerlink" title="Ready  for  complex  environments"></a>Ready  for  complex  environments</h2><ul>
+<li>remote monitoring made easy by using a Zabbix proxy</li>
+</ul>
+
     </div>
 
     
@@ -407,8 +483,17 @@
 
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -494,6 +579,23 @@
 
         </div>
       </div>
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Zabbix-feature"><span class="nav-number">1.</span> <span class="nav-text">Zabbix feature</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Overview"><span class="nav-number">1.1.</span> <span class="nav-text">Overview</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Data-gathering"><span class="nav-number">1.2.</span> <span class="nav-text">Data gathering</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Flexible-threshold-definitions-灵活的阈值定义"><span class="nav-number">1.3.</span> <span class="nav-text">Flexible threshold   definitions 灵活的阈值定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Highly-configurable-alerting"><span class="nav-number">1.4.</span> <span class="nav-text">Highly configurable alerting</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Real-time-graphing"><span class="nav-number">1.5.</span> <span class="nav-text">Real-time   graphing</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Web-monitoring-capabilities"><span class="nav-number">1.6.</span> <span class="nav-text">Web  monitoring  capabilities</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extensive-visualisation-options-丰富的可视化选项"><span class="nav-number">1.7.</span> <span class="nav-text">Extensive  visualisation  options (丰富的可视化选项)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Historical-data-storage"><span class="nav-number">1.8.</span> <span class="nav-text">Historical  data  storage</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Easy-configuration"><span class="nav-number">1.9.</span> <span class="nav-text">Easy  configuration</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Use-of-templates"><span class="nav-number">1.10.</span> <span class="nav-text">Use  of   templates</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Network-discovery"><span class="nav-number">1.11.</span> <span class="nav-text">Network  discovery</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Fast-web-interface"><span class="nav-number">1.12.</span> <span class="nav-text">Fast  web  interface</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Zabbix-API"><span class="nav-number">1.13.</span> <span class="nav-text">Zabbix  API</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Permissions-system"><span class="nav-number">1.14.</span> <span class="nav-text">Permissions  system</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Full-featured-and-easily-extensible-agent"><span class="nav-number">1.15.</span> <span class="nav-text">Full  featured  and  easily  extensible  agent</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Binary-daemons-守护进程"><span class="nav-number">1.16.</span> <span class="nav-text">Binary daemons(守护进程)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ready-for-complex-environments"><span class="nav-number">1.17.</span> <span class="nav-text">Ready  for  complex  environments</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
         <div class="back-to-top motion-element">
           <i class="fa fa-arrow-up"></i>
           
